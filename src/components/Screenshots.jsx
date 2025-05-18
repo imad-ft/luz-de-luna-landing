@@ -5,7 +5,7 @@ export default function Screenshots() {
   const [cardIdx , setCardIdx] = useState(0);
   
   const features = [
-    {image : "img/ChatGPT-Image.png", title: "Dashboard"},
+    {image : "img/Khadift.png", title: "Dashboard"},
     {image : "img/bibitotre.jpg", title: "Product List"},
     {image : "img/Sans-titrote.jpg", title: "Product Detail"},
     {image : "img/cartPage.jpg", title: "Cart Page"},
