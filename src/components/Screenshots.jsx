@@ -5,11 +5,11 @@ export default function Screenshots() {
   const [cardIdx , setCardIdx] = useState(0);
   
   const features = [
-    {image : "../img/ChatGPT Image 16 mai 2025, 23_58_46.png", title: "Dashboard"},
-    {image : "../img/bibitotre.jpg", title: "Product List"},
-    {image : "../img/Sans titrote.jpg", title: "Product Detail"},
-    {image : "../img/cartPage.jpg", title: "Cart Page"},
-    {image : "../img/payes titre.png", title: "Payment Page"},
+    {image : "img/ChatGPT-Image.png", title: "Dashboard"},
+    {image : "img/bibitotre.jpg", title: "Product List"},
+    {image : "img/Sans-titrote.jpg", title: "Product Detail"},
+    {image : "img/cartPage.jpg", title: "Cart Page"},
+    {image : "img/payes-titre.png", title: "Payment Page"},
   ]
 
   const previdx = () => setCardIdx((cardIdx - 1 + features.length) % features.length )

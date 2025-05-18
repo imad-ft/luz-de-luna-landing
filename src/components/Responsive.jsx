@@ -3,10 +3,10 @@ import React, { useState } from 'react';
 
 const Responsive = ()=>{
     const features = [
-        {image : "../img/Sans titresrie.jpg", title: "Home Page"},
-        {image : "../img/Sanosnss titre.jpg", title: "payment Page"},
-        {image : "../img/Sdbsjans titre.jpg", title: "Product Detail Page"},
-        {image : "../img/Sans titrnone.jpg", title: "Product page"},
+        {image : "img/Sans-titresrie.jpg", title: "Home Page"},
+        {image : "img/Sanosnss-titre.jpg", title: "payment Page"},
+        {image : "img/Sdbsjans-titre.jpg", title: "Product Detail Page"},
+        {image : "img/Sans-titrnone.jpg", title: "Product page"},
     ]
     return(
         <>

@@ -67,7 +67,7 @@ export default function FiltersDemo() {
 
         <video
           ref={videoRef}
-          src="../img/Vite + React - Personnel – Microsoft​ Edge 2025-05-17 18-49-33.mp4"
+          src="img/Vite-React-Personnel–Microsoft​-Edge.mp4"
           onTimeUpdate={handleTimeUpdate}
           className="video-filter"
         />

@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section className="hero">
       <div className="hero-content container">
-        <img src="../img/Sansorics titre.jpg" alt="" />
+        <img src="img/Sansorics-titre.jpg" alt="" />
        
         
       </div>
