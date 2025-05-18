@@ -533,3 +533,68 @@ section { padding: 80px 0; }
     margin-left: 10px;
     font-size: 18px;
 }
+
+
+
+
+
+/* Hero Section */
+@media (min-width: 600px) {
+  .hero h1 {
+    font-size: 3rem;
+  }
+  .hero p {
+    font-size: 1.25rem;
+  }
+}
+@media (min-width: 992px) {
+  .hero h1 {
+    font-size: 4rem;
+  }
+  .hero p {
+    font-size: 1.5rem;
+  }
+}
+
+/* About Section */
+@media (min-width: 768px) {
+  .features-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Features Section */
+@media (min-width: 600px) {
+  .feature-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 992px) {
+  .feature-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Screenshots Section */
+@media (min-width: 768px) {
+  .screenshot {
+    flex: 0 0 45%;
+  }
+}
+@media (min-width: 1200px) {
+  .screenshot {
+    flex: 0 0 22%;
+  }
+}
+
+/* Testimonials Section */
+@media (min-width: 768px) {
+  .testimonials-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 992px) {
+  .testimonials-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
